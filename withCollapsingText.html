@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link
+		href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700,900|Playfair+Display:400,700"
+		rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+
+	<!-- Resume Specific Stylesheet -->
+	<link rel="stylesheet" href="demos/resume/resume.css" type="text/css" />
+	<link rel="stylesheet" href="demos/resume/css/fonts.css" type="text/css" />
+	<!-- / -->
+
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="css/colors.php?color=7B6ED6" type="text/css" />
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>Resume | Canvas</title>
+	<style>
+		.myClickable :hover {
+			cursor: pointer;
+
+		}
+
+		.myCollapsedText {
+
+			font-style: italic;
+
+		}
+	</style>
+</head>
+
+<body class="stretched sticky-responsive-menu">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="transparent-header sticky-transparent static-sticky">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<!-- <a href="index.html" class="standard-logo font-secondary ls3" style="line-height: 90px;">canvas</a>
+						<a href="index.html" class="retina-logo font-secondary ls3" style="line-height: 90px;">canvas</a> -->
+					</div><!-- #logo end -->
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu">
+
+						<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="0">
+							<li class="current"><a href="#" data-href="#wrapper"><i class="icon-line2-home"></i>
+									<div>Home</div>
+								</a></li>
+							<li><a href="#" data-href="#section-skills"><i class="icon-line2-star"></i>
+									<div>Talks</div>
+								</a></li>
+							<li><a href="#" data-href="#section-about"><i class="icon-line2-user"></i>
+									<div>Testimonials</div>
+								</a></li>
+							<li><a href="#" data-href="#section-works"><i class="icon-line2-grid"></i>
+									<div>Book</div>
+								</a></li>
+							<li><a href="#" data-href="#section-articles"><i class="icon-line2-pencil"></i>
+									<div>Biography</div>
+								</a></li>
+							<li><a href="#" data-href="#footer"><i class="icon-line2-envelope"></i>
+									<div>Contact</div>
+								</a></li>
+						</ul>
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+		<section id="slider" class="slider-element full-screen force-full-screen clearfix">
+			<div class="full-screen force-full-screen"
+				style="position: fixed; width: 100%; background: #FFF url('img/DR1_edit.png') no-repeat top center; background-size: cover; background-attachment: fixed;">
+
+				<div class="container clearfix">
+					<div class="slider-caption dark slider-caption-left">
+						<h2 class="font-primary ls5" data-animate="fadeIn">David Rowan</h2>
+						<p class="t300 ls1 d-none d-sm-block" data-animate="fadeIn" data-delay="400">The leading
+							authority on technology’s impact on business</p>
+						<a class="font-primary noborder ls1 topmargin-sm inline-block more-link text-white dark d-none d-sm-inline-block"
+							data-animate="fadeIn" data-delay="800" data-scrollto="#section-works" data-offset="0"
+							href="#">
+							<ul class="" style="margin-left: 25px; font-size: 0.875rem ">
+								<li>Founding UK editor-in-chief, WIRED</li>
+								<li>600+ keynotes around the world</li>
+								<li>Technology columnist: The Times, GQ, Condé Nast Traveller</li>
+								<li>Author, “Non-Bullshit Innovation: Radical Ideas from the World’s Smartest Minds”
+									(Penguin)</li>
+								<li>Event moderator for governments, WIRED, TED, World Economic Forum</li>
+								<li>Adviser to & investor in 60+ tech startups</li>
+							</ul>
+						</a>
+						<a class="font-primary noborder ls1 topmargin-sm inline-block more-link text-white dark d-none d-sm-inline-block"
+							data-animate="fadeIn" data-delay="800" data-scrollto="#section-works" data-offset="0"
+							href="#footer"><u>Book David for your event</u></a>
+					</div>
+				</div>
+			</div>
+			<div class="full-screen force-full-screen blurred-img"
+				style="position: fixed; width: 100%; top: 0; left: 0; background: #FFF url('img/DR2.jpg') no-repeat top center; background-size: cover; background-attachment: fixed;">
+			</div>
+		</section>
+
+		<!-- Content
+		============================================= -->
+
+		<!-- ################### SECTION 1 ################### -->
+		<!-- <section id="content" class="nobg">
+
+			<div class="content-wrap nobottompadding nobg">
+
+				<div id="section-skills" class="section nomargin page-section dark nobg clearfix" style="padding-bottom: 50px">
+					<div class="container clearfix">
+						<div class="heading-block center">
+							<h2 class="font-secondary">Biography</h2>
+						</div>
+						<div class ="container center dippi-mobile-bio">
+							<p class ="font-primary t300 ls1 dippi-mobile-bio" style= "font-size: 27px">
+								"David travelled to 20 countries, from China to Peru, to
+								identify how to build tomorrow’s businesses for his
+								acclaimed book Non-Bullshit Innovation: Radical Ideas
+								from the World's Smartest Minds (Penguin). An award-
+								winning former technology columnist for The Times, The
+								Sunday Times, British GQ and Conde Nast Traveller, he
+								has written WIRED cover stories about the founders of
+								WhatsApp, Google, LinkedIn, Xiaomi and more. He has
+								been invited to keynote on technology and innovation
+								trends for Goldman Sachs, Google, Facebook, Daimler,
+								Samsung, Verizon, McKinsey and more. He has invested
+								in more than 60 tech startups and is a board adviser to
+								Lakestar, Europe’s biggest venture-capital fund."
+						</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+		<section id="content" style="background-color: #F7F7F0">
+
+			<div class="section nopadding nomargin">
+				<div id="section-about" class="section page-section nomargin clearfix"
+					style="background: #EEE url('img/DR2_edit.png') no-repeat center center; background-size: cover; padding: 100px 0">
+					<div class="container clearfix">
+
+						<div class="row clearfix">
+							<div class="col-md-5 clearfix">
+								<div class="heading-block">
+									<h2 class="font-secondary" style="color: #fff!important">KEYNOTE TALKS & EVENT
+										MODERATION.
+									</h2>
+									<span style="color: #fff!important; font-size: 1rem"> David Rowan is in
+										international demand as a keynote speaker, event host and moderator,
+										after-dinner speaker and webinar presenter. He travels frequently, and has a
+										home studio at his London base for online presentations and moderating. His
+										current keynote topics include:
+									</span>
+								</div>
+								<table class="table" style="color: #fff!important">
+									<tbody>
+										<tr class="myClickable">
+											<td data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+												aria-controls="collapseOne">FINDING OPPORTUNITY
+												AMID THE CRISIS: Technology offers hope for optimism
+												as we emerge from this crisis
+												<p id="collapseOne" class="collapse myCollapsedText">
+													Here are the growth opportunities — from re-inventing supply chains
+													to rethinking education to building new brand heroes.
+												</p>
+											</td>
+
+										</tr>
+										<tr class="myClickable">
+											<td data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+												aria-controls="collapseTwo">BUSINESS INNOVATION HAS NEVER MATTERED MORE
+												<p id="collapseTwo" class="collapse myCollapsedText">
+													COVID-19 has forced business leaders to move insanely fast to adapt.
+													But how do you build a culture of effective innovation? Here are the
+													lessons from David’s 20-nation quest for non-bullshit innovation.
+
+												</p>
+
+
+											</td>
+										</tr>
+										<tr class="myClickable">
+											<td data-toggle="collapse" data-target="#collapseThree"
+												aria-expanded="false" aria-controls="collapseThree">TEN LESSONS FROM THE
+												NON-BULLSHIT INNOVATORS
+												<p id="collapseThree" class="collapse myCollapsedText">
+													David Rowan travelled across the world to understand what it takes
+													for businesses and governments to leverage digital transformation in
+													exciting ways. He shares ten lessons from his new book Non-Bullshit
+													Innovation that can be applied to all sorts of organisations.
+
+												</p>
+
+											</td>
+										</tr>
+										<tr class="myClickable">
+											<td data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+												aria-controls="collapseFour">WHAT TECHNOLOGY MEANS FOR THE FUTURE OF
+												YOUR INDUSTRY
+												<p id="collapseFour" class="collapse myCollapsedText ">
+													David researches and prepares bespoke presentations for client
+													events. Recent subjects have included the future of food and drink
+													(clients including Unilever, Coca-Cola, Barilla); the future of
+													aviation (IATA); the future of real estate (CBRE, Leading Real
+													Estate, Cushman & Wakefield); the future of media (Sky, Schibsted,
+													BBC); the future of healthcare (BUPA, Vitality, Kaiser Permanente);
+													the future of financial services (Goldman Sachs, JP Morgan).
+
+												</p>
+
+											</td>
+										</tr>
+										<tr class="myClickable">
+											<td data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+												aria-controls="collapseFive">THE FUTURE OF THE WORKPLACE
+												<p id="collapseFive" class="collapse myCollapsedText">
+													How to attract talent, and motivate your team to perform its best
+													work, in a fast-changing world when the “workplace” is more fluid
+													than ever before.
+												</p>
+
+											</td>
+										</tr>
+										<tr>
+											<td>WHY IT’S TIME TO CHALLENGE THE TECH MONOPOLIES </td>
+										</tr>
+										<tr>
+											<td>THE TEN NEW RULES OF BUSINESS</td>
+										</tr>
+										<tr>
+											<td>HOW TO OPTIMISE CUSTOMER ENGAGEMENT</td>
+										</tr>
+										<tr>
+											<td>WHY PURPOSE PLUS PROFIT IS THE NEW BUSINESS MANTRA </td>
+										</tr>
+									</tbody>
+								</table>
+								<div>
+									<p style="color: #fff!important"><strong>EVENT MODERATING: </strong>David has
+										moderated events for the UK and French governments; World Economic Forum; Royal
+										Academy of Engineering; Pictet</p>
+									<a href="#footer"
+										class="button button-large button-border button-white button-dark noleftmargin"
+										style="color: #fff!important"> Book David for your event</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<section id="content" style="background-color: #F7F7F0">
+				<div class="content-wrap nobottompadding">
+
+
+					<!-- ############## VIDEOS DAVID ############## -->
+					<div class="container clearfix">
+						<div class="heading-block">
+							<h3>SELECTED VIDEOS OF DAVID ROWAN’S PRESENTATIONS</h3>
+							<!-- <span>Watch David talk at renowned events such as the Royal Televion Society and Mercer Global Investment Forum</span> -->
+						</div>
+					</div>
+
+					<div id="portfolio"
+						class="portfolio portfolio-5 portfolio-nomargin portfolio-full portfolio-notitle clearfix"
+						style="margin-bottom: -80px !important;">
+
+						<article class="portfolio-item pf-graphics pf-uielements" data-animate="fadeIn">
+							<div class="portfolio-image">
+								<a href="#">
+									<img src="img/video-grid-1.png" alt="Non Bullshit Innovation">
+								</a>
+								<div class="portfolio-overlay">
+									<a href="https://youtu.be/EXrc0W4CXSk" class="left-icon" data-lightbox="iframe"><i
+											class="icon-line-play"></i></a>
+									<a href="portfolio-single-video.html" class="right-icon"><i
+											class="icon-line-ellipsis"></i></a>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3><a href="portfolio-single-video.html">On Non-Bullshit Innovation</a></h3>
+								<span><a href="#">Graphics</a>, <a href="#">USI Paris, June 2019</a></span>
+							</div>
+						</article>
+
+						<article class="portfolio-item pf-graphics pf-uielements" data-animate="fadeIn"
+							data-delay="150">
+							<div class="portfolio-image">
+								<a href="#">
+									<img src="img/video-grid-5.png" alt="Non Bullshit Innovation">
+								</a>
+								<div class="portfolio-overlay">
+									<a href="https://www.youtube.com/watch?v=FosudP1cPZc" class="left-icon"
+										data-lightbox="iframe"><i class="icon-line-play"></i></a>
+									<a href="portfolio-single-video.html" class="right-icon"><i
+											class="icon-line-ellipsis"></i></a>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3><a href="portfolio-single-video.html">On Non-Bullshit Innovation</a></h3>
+								<span><a href="#">Graphics</a>, <a href="#">USI Paris, June 2019</a></span>
+							</div>
+						</article>
+
+						<article class="portfolio-item pf-graphics pf-uielements" data-animate="fadeIn"
+							data-delay="300">
+							<div class="portfolio-image">
+								<a href="#">
+									<img src="img/video-grid-4.png" alt="Non Bullshit Innovation">
+								</a>
+								<div class="portfolio-overlay">
+									<a href="https://www.youtube.com/watch?v=4W44RoUciyk" class="left-icon"
+										data-lightbox="iframe"><i class="icon-line-play"></i></a>
+									<a href="portfolio-single-video.html" class="right-icon"><i
+											class="icon-line-ellipsis"></i></a>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3><a href="portfolio-single-video.html">On Non-Bullshit Innovation</a></h3>
+								<span><a href="#">Graphics</a>, <a href="#">USI Paris, June 2019</a></span>
+							</div>
+						</article>
+
+						<article class="portfolio-item pf-graphics pf-uielements" data-animate="fadeIn"
+							data-delay="450">
+							<div class="portfolio-image">
+								<a href="#">
+									<img src="img/video-grid-2.png" alt="Non Bullshit Innovation">
+								</a>
+								<div class="portfolio-overlay">
+									<a href="https://www.youtube.com/watch?v=EXrc0W4CXSk" class="left-icon"
+										data-lightbox="iframe"><i class="icon-line-play"></i></a>
+									<a href="portfolio-single-video.html" class="right-icon"><i
+											class="icon-line-ellipsis"></i></a>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3><a href="portfolio-single-video.html">On Non-Bullshit Innovation</a></h3>
+								<span><a href="#">Graphics</a>, <a href="#">USI Paris, June 2019</a></span>
+							</div>
+						</article>
+
+						<article class="portfolio-item pf-graphics pf-uielements" data-animate="fadeIn"
+							data-delay="600">
+							<div class="portfolio-image">
+								<a href="#">
+									<img src="img/video-grid-3.png" alt="Non Bullshit Innovation">
+								</a>
+								<div class="portfolio-overlay">
+									<a href="https://www.youtube.com/watch?v=kklyo_6sHVc" class="left-icon"
+										data-lightbox="iframe"><i class="icon-line-play"></i></a>
+									<a href="portfolio-single-video.html" class="right-icon"><i
+											class="icon-line-ellipsis"></i></a>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3><a href="portfolio-single-video.html">On Non-Bullshit Innovation</a></h3>
+								<span><a href="#">Graphics</a>, <a href="#">USI Paris, June 2019</a></span>
+							</div>
+						</article>
+
+					</div>
+					<!-- #portfolio end -->
+
+
+					<div class="container clearfix">
+						<div class="topmargin content-wrap">
+							<div class="heading-block">
+								<h3 class="" style="">About David Rowan</h3>
+							</div>
+							<div class="row clearfix">
+								<div class="col-lg-3">
+									<img src="img/DR3.jpg" alt="Book Mockup" style="margin-top: 10px;">
+								</div>
+								<div class="col-lg-8 offset-lg-1 ">
+									<p>
+										David Rowan explains compellingly how emerging technologies will impact business
+										— and how leaders should prepare now. As founding Editor-in-Chief of WIRED
+										magazine’s UK edition, David came to know the founders of WhatsApp, LinkedIn,
+										Google, Didi, Spotify, Xiaomi, Nest, Twitter and countless other ambitious
+										startups from Tel Aviv to Shenzhen. He has since invested in more than 60
+										early-stage tech companies, including two that became billion-dollar “unicorns”,
+										and is an adviser to Lakestar, one of Europe’s largest venture-capital funds.
+										His best-selling book “Non-Bullshit Innovation: Radical Ideas from the World’s
+										Smartest Minds” (Penguin, 2019) has been published in Japan, Korea, Russia and
+										beyond. The book, a 20-country quest for bold corporate innovation in the face
+										of technology-led disruption, sets out sixteen proven strategies for
+										future-proofing a successful business — from “Turn products into services” to
+										“Empower your team” and “Become a platform”. David has been a technology
+										columnist for The Times, GQ, Condé Nast Traveller and The Sunday Times, and
+										hosts a podcast series about tech founders called Walks With Founders. He has
+										received repeat requests to keynote for clients such as Goldman Sachs, JP
+										Morgan, Google, KPMG, McKinsey, Chanel and Unilever, and has moderated events
+										for the World Economic Forum and the UK and French governments. And he is still
+										searching for the future.
+										<br><br>
+										David deconstructs tech trends in real time, unpacking how major innovations
+										like artificial intelligence, quantum computing, and more, are changing
+										businesses and consumers. He delivers fascinating and knowledgeable
+										presentations full of insight into the future of technology together with lively
+										examples and engaging clips which reveal that in some cases the future is
+										already here. He’s typically asked to speak about how innovation and technology
+										are likely to impact a particular sector (from manufacturing to motoring), and
+										what incumbent companies can do to protect themselves. He customises every talk,
+										and in recent months has addressed audiences in finance, fashion, utilities,
+										television, insurance, shipping, travel, real estate and business software. He
+										also speaks a lot about changing business models, and how companies can develop
+										a culture of innovation.
+										<br><br>
+										SELECTED JOURNALISM:
+
+									<ul style="margin-left: 30px">
+										<li><a style="color: #000072"
+												href="https://www.wired.co.uk/article/whats-app-owner-founder-jan-koum-facebook"><u>WIRED:
+													How the WhatsApp founders built the ultimate startup</u></a></li>
+										<li><a style="color: #000072"
+												href="https://www.wired.co.uk/article/wired-100-daniel-ek"><u>WIRED:
+													Interview with Daniel Ek of Spotify</u></a></li>
+										<li><a style="color: #000072"
+												href="https://www.wired.co.uk/article/reid-hoffman-network-philosopher"><u>WIRED:
+													LinkedIn founder Reid Hoffman, the network philosopher</u></a></li>
+										<li><a style="color: #000072"
+												href="https://www.thetimes.co.uk/article/fear-the-great-tech-armoury-ofchina-3k9dsfhtl"><u>THE
+													TIMES Comment Page: Beware the great tech armoury of China</u></a>
+										</li>
+										<li><a style="color: #000072"
+												href="https://www.thetimes.co.uk/article/well-have-the-world-at-our-feet-if-we-think-like-true-innovators-6tg2mvfzh"><u>THE
+													TIMES Saturday Essay Page: We’ll have the world at our feet if we
+													think like true innovators</u></a></li>
+									</ul>
+									</p>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<section id="content" style="background-color: #F7F7F0; margin: 0px 20px 0px 20px">
+				<div class="content-wrap">
+					<h3 class="center">Testimonials</h3>
+
+					<div id="oc-testi" class="owl-carousel testimonials-carousel carousel-widget" data-margin="20"
+						data-items-sm="1" data-items-md="2" data-items-xl="3">
+
+						<div class="oc-item">
+							<div class="testimonial">
+								<div class="testi-content">
+									<p>David was incredible and we’ve had some great feedback already from our analysts
+										and leadership team that were there. We were engaged, inspired and enjoyed every
+										minute of his keynote.</p>
+									<div class="testi-meta">
+										John Doe
+										<span>XYZ Inc.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="oc-item">
+							<div class="testimonial">
+								<!-- <div class="testi-image">
+									<a href="#"><img src="images/testimonials/2.jpg" alt=""></a>
+								</div> -->
+								<div class="testi-content">
+									<p>David did an amazing job with his presentations and panel discussions. He was
+										very professional, spoke/presented brilliantly and was well received by the
+										audience. He was also punctual and easy to communicate with. Comments I have
+										received from organizers and attendees included: • "a very well researched and
+										fact-based presentation" • "Provided really useful information I have not heard
+										of before" • "Perfect choice in speakers to end the two day forum: maintained
+										everyone's attention and excitement" • "David was brilliant. What a great
+										speaker!</p>
+									<div class="testi-meta">
+										Collis Ta'eed
+										<span>Envato Inc.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="oc-item">
+							<div class="testimonial">
+								<!-- <div class="testi-image">
+									<a href="#"><img src="images/testimonials/7.jpg" alt=""></a>
+								</div> -->
+								<div class="testi-content">
+									<p>Your insights and perspective into the companies and entrepreneurs who are
+										changing the world created a buzz around those assembled.</p>
+									<div class="testi-meta">
+										Mary Jane
+										<span>Google Inc.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="oc-item">
+							<div class="testimonial">
+								<!-- <div class="testi-image">
+									<a href="#"><img src="images/testimonials/3.jpg" alt=""></a>
+								</div> -->
+								<div class="testi-content">
+									<p>We had nothing but praise for his forward thinking piece, it was both informative
+										and entertaining. I didn’t see a single attendee checking their smartphone
+										during David’s talk, which is a testament to his skill as a speaker. I will
+										definitely recommend him to our other offices around the world.</p>
+									<div class="testi-meta">
+										Steve Jobs
+										<span>Apple Inc.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="oc-item">
+							<div class="testimonial">
+								<!-- <div class="testi-image">
+									<a href="#"><img src="images/testimonials/4.jpg" alt=""></a>
+								</div> -->
+								<div class="testi-content">
+									<p>He enthralled the audience… He is great to work with, has a fantastic
+										presentation and was an asset to the panel session. The feedback from clients
+										and Mercer folk has been excellent.</p>
+									<div class="testi-meta">
+										Jamie Morrison
+										<span>Adobe Inc.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="oc-item">
+							<div class="testimonial">
+								<!-- <div class="testi-image">
+									<a href="#"><img src="images/testimonials/7.jpg" alt=""></a>
+								</div> -->
+								<div class="testi-content">
+									<p>David was very well received. His presentation aligned very well with the themes
+										running through the conference.</p>
+									<div class="testi-meta">
+										Mary Jane
+										<span>Google Inc.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="oc-item">
+							<div class="testimonial">
+								<!-- <div class="testi-image">
+									<a href="#"><img src="images/testimonials/7.jpg" alt=""></a>
+								</div> -->
+								<div class="testi-content">
+									<p>Absolutely excellent. Excellent moderation, excellent presentation.</p>
+									<div class="testi-meta">
+										Mary Jane
+										<span>Google Inc.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="oc-item">
+							<div class="testimonial">
+								<!-- <div class="testi-image">
+									<a href="#"><img src="images/testimonials/7.jpg" alt=""></a>
+								</div> -->
+								<div class="testi-content">
+									<p>Very good facilitator, understood the brief, researched thoroughly and it showed.
+									</p>
+									<div class="testi-meta">
+										Mary Jane
+										<span>Google Inc.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="oc-item">
+							<div class="testimonial">
+								<!-- <div class="testi-image">
+									<a href="#"><img src="images/testimonials/7.jpg" alt=""></a>
+								</div> -->
+								<div class="testi-content">
+									<p>A big hit with the team, some really great feedback…content, delivery and
+										messaging was spot on.</p>
+									<div class="testi-meta">
+										Mary Jane
+										<span>Google Inc.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="oc-item">
+							<div class="testimonial">
+								<!-- <div class="testi-image">
+									<a href="#"><img src="images/testimonials/7.jpg" alt=""></a>
+								</div> -->
+								<div class="testi-content">
+									<p>You have exceeded our expectations at our event in Barcelona, and we would like
+										to bring you back once again. I heard so many positive things about your
+										keynote. You delivered an outstanding session.</p>
+									<div class="testi-meta">
+										Mary Jane
+										<span>Google Inc.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="oc-item">
+							<div class="testimonial">
+								<!-- <div class="testi-image">
+									<a href="#"><img src="images/testimonials/7.jpg" alt=""></a>
+								</div> -->
+								<div class="testi-content">
+									<p>David Rowan was awesome, lots of amazing feedback.</p>
+									<div class="testi-meta">
+										Mary Jane
+										<span>Google Inc.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+
+			<div class="container clearfix">
+				<div class="content-wrap">
+
+					<div class="row clearfix">
+						<div class="col-lg-4 offset-lg-1">
+							<img src="img/book.jpeg" alt="Book Mockup" style="margin-top: 10px;">
+						</div>
+						<div class="col-lg-6 offset-lg-1">
+							<h3 class="color t400" style="font-size: 36px; color: #000072!important">ABOUT DAVID’S BOOK
+							</h3>
+							<!-- <p class="dark lead" style="color: #000!important">
+								<span class=" color font-secondary" style="color: #000072!important"></span>Non-Bullshit Innovation: Radical Ideas from the World’s Smartest Minds (Penguin, 2019)
+							</p> -->
+							<p>
+								David Rowan, the founding editor-in-chief of WIRED UK, travels the globe in search of
+								the most exciting and pioneering startups building the future. He’s got to know the
+								founders of WhatsApp, LinkedIn, Google, Spotify, Xiaomi, Didi, Nest, Twitter and
+								countless other ambitious entrepreneurs disrupting businesses in almost every sector.
+								And yet too often the companies they’re disrupting don’t get it. They think they can
+								innovate through jargon: with talk of change agents and co-creation gurus, ideas portals
+								and webinars, make-a-thons and hackfests, paradigm shifts and pilgrimages to Silicon
+								Valley. It’s mostly pointless innovation theatre ― corporate nonsense that has little to
+								do with delivering real change. But during this quest he's also discovered some
+								genuinely exciting and transformative approaches to innovation, often in places you
+								might least expect.<br><br>
+							</p>
+						</div>
+						<div class="col-lg-10 offset-lg-1">
+							<p>
+								Get ready for:<br><br>
+								· The airline that rewards passengers for walking their dog<br>
+								· The bank that performs surgery<br>
+								· The country that’s an app store<br><br>
+								And many more.<br><br>
+								Packed full of tips for anyone looking for radical ways to adapt and thrive in the
+								digital age, this carefully curated selection of stories — reported in person from Peru
+								to China — will reveal ideas for creating genuine innovation from some of the world’s
+								most inspiring leaders.<br>
+
+							</p>
+							<a href="#test"
+								class="button button-large button-border button-white button-dark noleftmargin"
+								style="color: #000!important">Amazon</a><a href="#test"
+								class="button button-large button-border button-white button-dark noleftmargin"
+								style="color: #000!important">Audible</a>
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+			<!-- Footer
+		============================================= -->
+			<footer id="footer" class="page-section dark noborder nopadding clearfix"
+				style="background-color: #F7F7F0;">
+
+				<div class="container clearfix">
+
+					<!-- Footer Widgets
+				============================================= -->
+					<div class="footer-widgets-wrap clearfix" style="padding: 80px 0">
+						<div class="col_one_fourth">
+							<div class="footer-logo"><span class="t400 color ls1"
+									style="font-size: 22px; color: #000072!important">David Rowan.</span><br><small
+									class="ls3 uppercase">&copy; 2019 Reserved.</small></div>
+						</div>
+						<div class="col_three_fourth col_last">
+							<div class="col_one_third">
+								<div class="widget widget_links clearfix">
+									<h4>Contact David</h4>
+									<div class="footer-content">
+										<!-- <abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br> -->
+										<abbr title="Email Address"><strong>Email:</strong></abbr> web@davidrowan.com
+									</div>
+								</div>
+							</div>
+							<div class="col_one_third">
+								<div class="widget widget_links clearfix">
+									<h4>Social</h4>
+									<a href="#" class="social-icon nobg si-small si-light si-youtube">
+										<i class="icon-youtube"></i>
+										<i class="icon-youtube"></i>
+									</a>
+									<a href="#" class="social-icon nobg si-small si-light si-twitter">
+										<i class="icon-twitter"></i>
+										<i class="icon-twitter"></i>
+									</a>
+									<a href="#" class="social-icon nobg si-small si-light si-linkedin">
+										<i class="icon-linkedin"></i>
+										<i class="icon-linkedin"></i>
+									</a>
+									<!-- <a href="#" class="social-icon nobg si-small si-light si-instagram">
+									<i class="icon-instagram"></i>
+									<i class="icon-instagram"></i>
+								</a>
+								<a href="#" class="social-icon nobg si-small si-light si-dribbble">
+									<i class="icon-dribbble"></i>
+									<i class="icon-dribbble"></i>
+								</a>
+
+								<a href="#" class="social-icon nobg si-small si-light si-vimeo">
+									<i class="icon-vimeo"></i>
+									<i class="icon-vimeo"></i>
+								</a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<script>
+		jQuery(window).scroll(function () {
+			var pixs = jQuery(window).scrollTop(),
+				opacity = pixs / 650,
+				element = jQuery('.blurred-img'),
+				elementHeight = element.outerHeight(),
+				elementNextHeight = jQuery('.content-wrap').find('.page-section').first().outerHeight();
+			if ((elementHeight + elementNextHeight + 50) > pixs) {
+				element.addClass('blurred-image-visible');
+				element.css({ 'opacity': opacity });
+			} else {
+				element.removeClass('blurred-image-visible');
+			}
+		});
+	</script>
+
+</body>
+
+</html>
